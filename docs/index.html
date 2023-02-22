@@ -9,7 +9,9 @@
       <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
       <link href="/dist/output.css" rel="stylesheet">
       
-    <link rel="stylesheet" href="/assets/index-97c451d7.css">
+      
+      
+    <link rel="stylesheet" href="/assets/index-2ac6945f.css">
   </head>
   <body>
 <!--    <div id="app"></div>-->
@@ -19,7 +21,7 @@
         <div class="menu-navbar">
             <img src="/assets/favicon_base-889c09d4.png" height="64" width="64">
             <div class="menu-company-name">P3 Doweks</div>
-            <div class="menu-item">Strona główna</div>
+            <div class="menu-item"><a href="">Strona główna</a></div>
             <div class="menu-item">Blog</div>
             <div class="menu-item">Kariera</div>
             <div class="menu-item">Kontakt</div>
@@ -28,21 +30,57 @@
             <button class="menu-kontakt-button ">Skontaktuj się</button>
         </div>
 
-        <div class="menu-hero-divider"></div>
-        <div class="sekcja-hero">
-            <!--    <div>-->
-            <!--        Zatrudniamy! Sprawdź najnowsze oferty pracy-->
-            <!--    </div>-->
 
-            <div class="sekcja-hero-obrazek">
-                <img src="/assets/header_oczekiwania_trans-563c6fb5.svg" >
+
+        <header>
+            <div class="header-content">
+
+                <a href="#" class="logo">Logo</a>
+
+                <input type="checkbox" id="hamburger">
+                <label for="hamburger"><span></span></label>
+
+                <nav>
+                    <ul class="menus">
+                        <li><a href="#">Home</a></li>
+                        <li>
+                            <button type="button">Services <span class="arrow"></span></button>
+                            <ul class="dropdown">
+                                <li><a href="#">Web design</a></li>
+                                <li><a href="#">Web dev</a></li>
+                                <li><a href="#">Web</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="sekcja-hero-slogan">
-                <h1 class="tytul-hero">Pracujemy na bardzo krótkich iteracjach. Nie ma ryzyka, że zrobimy Ci software, którego nie potrzebujesz.</h1>
-                <button class="button-sekcja-hero">Porozmawiaj z nami</button>
-            </div>
+        </header>
+        <div class="menu-hero-divider"></div>
 
         </div>
+
+        <div class="container">
+            <div class="sekcja-hero bg-midnight">
+                <!--    <div>-->
+                <!--        Zatrudniamy! Sprawdź najnowsze oferty pracy-->
+                <!--    </div>-->
+
+                <div class="sekcja-hero-obrazek">
+                    <img src="/assets/header_oczekiwania_trans-563c6fb5.svg" >
+                </div>
+                <div class="sekcja-hero-slogan">
+                    <h1 class="tytul-hero">Pracujemy na bardzo krótkich iteracjach. Nie ma ryzyka, że zrobimy Ci software, którego nie potrzebujesz.</h1>
+                    <button class="button-sekcja-hero">Porozmawiaj z nami</button>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="container">
+
         <div class="sekcja-uslugi">
             <div class="naglowek-sekcji-uslugi">
                 <h2 class="mini-nadtytul">Usługi</h2>
